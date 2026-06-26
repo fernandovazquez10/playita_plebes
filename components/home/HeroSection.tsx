@@ -1,5 +1,7 @@
 import Link from "next/link";
+import Image from "next/image";
 import FadeInImage from "@/components/ui/FadeInImage";
+import { assetPath } from "@/lib/assetPath";
 
 interface HeroSectionProps {
   ctaHref: string; // "/menu"
@@ -7,22 +9,31 @@ interface HeroSectionProps {
 
 export default function HeroSection({ ctaHref }: HeroSectionProps) {
   return (
-    <section className="relative flex min-h-[calc(100vh-4rem)] items-center justify-center bg-dark-navy px-4 py-10 sm:py-20 sm:px-6 lg:px-8">
-      <div className="mx-auto w-full max-w-3xl text-center">
-        <h1 className="mb-6 font-display text-3xl font-bold tracking-tight text-brand-cream sm:text-4xl lg:text-5xl">
-          Playita Plebes
-        </h1>
+    <section className="relative flex min-h-[calc(100vh-4rem)] items-center justify-center overflow-hidden px-4 py-10 sm:py-20 sm:px-6 lg:px-8">
+      {/* Imagen de fondo */}
+      <Image
+        src={assetPath("/inicio/hero-bg.svg")}
+        alt=""
+        fill
+        priority
+        className="object-cover"
+        sizes="100vw"
+      />
+      {/* Overlay degradado para legibilidad del texto */}
+      <div
+        className="absolute inset-0 bg-gradient-to-b from-dark-navy/40 via-dark-navy/60 to-dark-navy/90"
+        aria-hidden="true"
+      />
 
-        <div className="relative w-full aspect-[4/3] sm:aspect-[16/9] lg:aspect-[16/5] overflow-hidden rounded-lg">
-          <FadeInImage
-            src="/inicio/banner.png"
-            alt="Playita Plebes banner"
-            fill
-            className="object-cover"
-            sizes="100vw"
-            priority
-          />
-        </div>
+      <div className="relative z-10 mx-auto w-full max-w-3xl text-center">
+        <FadeInImage
+          src="/logo.png"
+          alt="Playita Plebes logo"
+          width={400}
+          height={400}
+          className="mx-auto h-48 w-auto sm:h-64 lg:h-80"
+          priority
+        />
 
         <p className="mt-6 font-body text-lg italic leading-relaxed text-brand-cream/90 sm:text-xl lg:text-2xl">
           "Desde el mar hasta tu mesa"

@@ -24,7 +24,7 @@ export default function Footer() {
           <p className="font-body text-sm text-brand-cream">Síguenos en nuestras redes</p>
         <nav aria-label="Redes sociales" className="flex gap-5">
           <a
-            href="https://instagram.com/@playitaplebes"
+            href="https://www.instagram.com/playitaplebes"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
