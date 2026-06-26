@@ -9,6 +9,9 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
 
+  // Permite el hot-reload (HMR) en dev desde dispositivos en la red local
+  allowedDevOrigins: ['192.168.68.58'],
+
   // Para despliegue en GitHub Pages, descomentar las siguientes líneas
   // reemplazando 'nombre-del-repo' con el nombre real del repositorio:
   // basePath: '/nombre-del-repo',

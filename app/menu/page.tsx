@@ -22,14 +22,15 @@ export default function MenuPage() {
       <CategoryTabs activeIndex={activeIndex} onChange={setActiveIndex} />
 
       <div className="py-6">
-        <SwipeableMenuContainer activeIndex={activeIndex} onSwipe={setActiveIndex}>
-          {itemsByCategory.map((items, index) => (
-            <CategoryView
-              key={CATEGORIES[index]}
-              items={items}
-              onSelectItem={selectItem}
-            />
-          ))}
+        <SwipeableMenuContainer
+          activeIndex={activeIndex}
+          count={CATEGORIES.length}
+          onSwipe={setActiveIndex}
+        >
+          <CategoryView
+            items={itemsByCategory[activeIndex]}
+            onSelectItem={selectItem}
+          />
         </SwipeableMenuContainer>
       </div>
 
