@@ -1,5 +1,8 @@
 import type { NextConfig } from "next";
 
+const isProd = process.env.NODE_ENV === "production";
+const repo = "playita_plebes";
+
 const nextConfig: NextConfig = {
   // Genera HTML/CSS/JS estáticos en carpeta out/ (sin servidor Node)
   output: "export",
@@ -9,13 +12,13 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
 
+  // En producción (GitHub Pages) el sitio se sirve en /playita_plebes/
+  // En desarrollo local se sirve en la raíz.
+  basePath: isProd ? `/${repo}` : undefined,
+  assetPrefix: isProd ? `/${repo}/` : undefined,
+
   // Permite el hot-reload (HMR) en dev desde dispositivos en la red local
   allowedDevOrigins: ['192.168.68.58'],
-
-  // Para despliegue en GitHub Pages, descomentar las siguientes líneas
-  // reemplazando 'nombre-del-repo' con el nombre real del repositorio:
-  // basePath: '/nombre-del-repo',
-  // assetPrefix: '/nombre-del-repo/',
 };
 
 export default nextConfig;
