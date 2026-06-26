@@ -1,5 +1,6 @@
 'use client'
 
+import { useRef, useEffect } from 'react'
 import { useMenuPageState, CATEGORIES } from '@/hooks/useMenuPageState'
 import { getMenuItems, filterByCategory } from '@/lib/menu'
 import CategoryTabs from '@/components/menu/CategoryTabs'
@@ -17,6 +18,14 @@ export default function MenuPage() {
     filterByCategory(allItems, category)
   )
 
+  // Rastrea qué categorías ya se animaron para no repetir el fade al regresar
+  const animatedRef = useRef<Set<number>>(new Set())
+  const shouldAnimate = !animatedRef.current.has(activeIndex)
+
+  useEffect(() => {
+    animatedRef.current.add(activeIndex)
+  }, [activeIndex])
+
   return (
     <section aria-label="Menú del restaurante">
       <CategoryTabs activeIndex={activeIndex} onChange={setActiveIndex} />
@@ -30,6 +39,7 @@ export default function MenuPage() {
           <CategoryView
             items={itemsByCategory[activeIndex]}
             onSelectItem={selectItem}
+            animate={shouldAnimate}
           />
         </SwipeableMenuContainer>
       </div>

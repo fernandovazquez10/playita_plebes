@@ -1,4 +1,4 @@
-import Image from "next/image";
+import FadeInImage from "@/components/ui/FadeInImage";
 
 interface StorySectionProps {
   heading: string;
@@ -24,7 +24,7 @@ export default function StorySection({
       >
         {/* Image */}
         <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg md:w-1/2">
-          <Image
+          <FadeInImage
             src={imageSrc}
             alt={imageAlt}
             fill

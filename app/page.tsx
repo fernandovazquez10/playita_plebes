@@ -4,13 +4,15 @@ import StorySection from "@/components/home/StorySection";
 import MapSection from "@/components/home/MapSection";
 
 export const metadata: Metadata = {
-  title: "Playita Plebes — Cocina de Autor con Raíces Sinaloenses",
+  title: {
+    absolute: "Playita Plebes — Desde el mar hasta tu mesa",
+  },
   description:
-    "Descubre Playita Plebes: una propuesta de cocina de autor que honra la tradición del mar de Sinaloa, en colaboración con Casa Beltrán. Visítanos en Mazatlán.",
+    "Playita Plebes acerca la auténtica comida de mar al corazón de la Ciudad de México. Mariscos frescos, desayunos y bebidas con sabor de la costa.",
   openGraph: {
-    title: "Playita Plebes — Cocina de Autor con Raíces Sinaloenses",
+    title: "Playita Plebes — Desde el mar hasta tu mesa",
     description:
-      "Una propuesta de cocina de autor que honra la tradición del mar de Sinaloa, elevada con técnica y pasión — en colaboración con Casa Beltrán.",
+      "Acercamos la auténtica comida de mar al corazón de la Ciudad de México. Mariscos frescos con el sabor de la costa.",
     images: [
       {
         url: "/og-home.jpg",
@@ -32,15 +34,15 @@ export default function Home() {
 
       <StorySection
         heading="Nuestra Historia"
-        body="Playita Plebes nació de la pasión por los sabores del Pacífico sinaloense. Lo que comenzó como una reunión entre amigos alrededor de una mesa con mariscos frescos, se transformó en una propuesta gastronómica que busca elevar los platillos tradicionales del mar con técnica de cocina de autor y productos de la más alta calidad."
+        body="Playita Plebes nace con una misión clara: acercar la auténtica comida de mar al corazón de la Ciudad de México. Inspirados por el recorrido de nuestro chef por las costas del país —donde aprendió el arte de los mariscos de manos de las cocineras de la región— hoy ofrecemos un amplio menú que trae el sabor del Pacífico a la capital."
         imageSrc="/inicio/historia.png"
-        imageAlt="Platillos de cocina de autor con mariscos sinaloenses"
+        imageAlt="Mariscos frescos preparados al estilo de la costa"
         imagePosition="left"
       />
 
       <StorySection
         heading="Tradición y Técnica"
-        body="En colaboración con Casa Beltrán, cada platillo es un homenaje a la riqueza culinaria de Sinaloa. Respetamos las recetas que nos enseñó el mar, y las elevamos con ingredientes frescos, presentaciones cuidadas y una experiencia que invita a disfrutar sin prisa. Aquí, cada bocado cuenta una historia."
+        body="Cada platillo es el encuentro entre la tradición costera y la técnica refinada en cocinas de alto nivel. Respetamos las recetas que nos enseñó el mar y las elevamos con ingredientes de la más alta calidad, presentaciones cuidadas y un sazón que honra su origen. Aquí, cada bocado cuenta una historia que viaja desde el Pacífico hasta tu mesa."
         imageSrc="/inicio/tradicion.jpg"
         imageAlt="Chef preparando platillos con técnica de autor"
         imagePosition="right"

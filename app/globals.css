@@ -37,3 +37,20 @@ body {
   color: var(--foreground);
   font-family: var(--font-body);
 }
+
+/* === Animación de entrada para cards del menú === */
+@keyframes card-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card-fade-in {
+  opacity: 0;
+  animation: card-fade-in 0.5s ease-out forwards;
+}

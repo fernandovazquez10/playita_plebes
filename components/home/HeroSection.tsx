@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+import FadeInImage from "@/components/ui/FadeInImage";
 
 interface HeroSectionProps {
   ctaHref: string; // "/menu"
@@ -14,7 +14,7 @@ export default function HeroSection({ ctaHref }: HeroSectionProps) {
         </h1>
 
         <div className="relative w-full aspect-[4/3] sm:aspect-[16/9] lg:aspect-[16/5] overflow-hidden rounded-lg">
-          <Image
+          <FadeInImage
             src="/inicio/banner.png"
             alt="Playita Plebes banner"
             fill
@@ -24,13 +24,14 @@ export default function HeroSection({ ctaHref }: HeroSectionProps) {
           />
         </div>
 
-        <p className="mt-6 font-body text-lg leading-relaxed text-brand-cream/90 sm:text-xl lg:text-2xl">
-          Cocina de autor con raíces sinaloenses
+        <p className="mt-6 font-body text-lg italic leading-relaxed text-brand-cream/90 sm:text-xl lg:text-2xl">
+          "Desde el mar hasta tu mesa"
         </p>
 
         <p className="mt-4 font-body text-base leading-relaxed text-neutral-200 sm:text-lg">
-          Una propuesta que honra la tradición del mar de Sinaloa, elevada con
-          técnica y pasión — en colaboración con Casa Beltrán.
+          Llevamos los sabores frescos de la cocina del mar hasta el corazón de
+          la capital. Mariscos preparados con tradición, ingredientes de la más
+          alta calidad y el inconfundible sazón costero en cada platillo.
         </p>
 
         <Link

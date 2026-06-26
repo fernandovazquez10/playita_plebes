@@ -11,6 +11,7 @@ interface MenuCardProps {
 
 export default function MenuCard({ item, onClick }: MenuCardProps) {
   const [imgSrc, setImgSrc] = useState(item.imageUrl)
+  const [loaded, setLoaded] = useState(false)
 
   return (
     <button
@@ -24,7 +25,10 @@ export default function MenuCard({ item, onClick }: MenuCardProps) {
           alt={item.name}
           fill
           sizes="(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 16vw"
-          className="object-cover transition-transform group-hover:scale-105"
+          className={`object-cover transition-all duration-500 ease-out group-hover:scale-105 ${
+            loaded ? 'opacity-100' : 'opacity-0'
+          }`}
+          onLoad={() => setLoaded(true)}
           onError={() => setImgSrc('/placeholder.svg')}
         />
       </div>

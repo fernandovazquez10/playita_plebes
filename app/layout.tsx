@@ -20,9 +20,16 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://playitaplebes.github.io"),
-  title: "Playita Plebes — Cocina de Autor con Raíces Sinaloenses",
+  title: {
+    default: "Playita Plebes",
+    template: "%s | Playita Plebes",
+  },
   description:
-    "Playita Plebes × Casa Beltrán. Cocina de autor con raíces en los mariscos sinaloenses.",
+    "Acercamos la auténtica comida de mar al corazón de la Ciudad de México.",
+  icons: {
+    icon: "/logo.png",
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({

@@ -23,7 +23,7 @@ export default function Footer() {
           <p className="font-body text-sm text-brand-cream">Síguenos en nuestras redes</p>
         <nav aria-label="Redes sociales" className="flex gap-5">
           <a
-            href="https://instagram.com/playitaplebes"
+            href="https://instagram.com/@playitaplebes"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
@@ -47,7 +47,7 @@ export default function Footer() {
             </svg>
           </a>
           <a
-            href="https://facebook.com/playitaplebes"
+            href="https://www.facebook.com/people/Playita-Plebes-mariscos/61581658877677/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Facebook"
@@ -69,7 +69,7 @@ export default function Footer() {
             </svg>
           </a>
           <a
-            href="https://tiktok.com/@playitaplebes"
+            href="https://tiktok.com/@playitaplebes_oficial"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="TikTok"

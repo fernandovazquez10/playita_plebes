@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Menú — Playita Plebes",
+  title: "Menú",
   description:
-    "Explora nuestro menú de mariscos sinaloenses, desayunos y bebidas. Cocina de autor × Casa Beltrán.",
+    "Explora nuestro menú de mariscos, desayunos y bebidas. Sabores del mar en el corazón de la Ciudad de México.",
   openGraph: {
-    title: "Menú — Playita Plebes",
+    title: "Menú | Playita Plebes",
     description:
-      "Mariscos, desayunos y bebidas. Cocina de autor con raíces sinaloenses en colaboración con Casa Beltrán.",
+      "Mariscos, desayunos y bebidas. Sabores del mar en el corazón de la Ciudad de México.",
     images: [
       {
         url: "/og-menu.jpg",

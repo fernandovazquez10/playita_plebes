@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import FadeInImage from "@/components/ui/FadeInImage";
 import chefsData from "@/data/chefs.json";
 import type { Chef } from "@/types";
 
 export const metadata: Metadata = {
-  title: "Nosotros — Playita Plebes × Casa Beltrán",
+  title: "Nosotros",
   description:
-    "Conoce a los chefs detrás de Playita Plebes: talento sinaloense que eleva los mariscos del Pacífico con técnica de cocina de autor.",
+    "Conoce a los chefs detrás de Playita Plebes: talento que eleva los sabores del mar con técnica de cocina de autor.",
   openGraph: {
-    title: "Nosotros — Playita Plebes × Casa Beltrán",
+    title: "Nosotros | Playita Plebes",
     description:
-      "Conoce a los chefs detrás de Playita Plebes: talento sinaloense que eleva los mariscos del Pacífico con técnica de cocina de autor.",
+      "Conoce a los chefs detrás de Playita Plebes: talento que eleva los sabores del mar con técnica de cocina de autor.",
     images: [
       {
         url: "/og-chefs.jpg",
@@ -46,7 +46,7 @@ export default function NosotrosPage() {
             >
               {/* Chef image */}
               <div className="relative aspect-[3/4] w-full overflow-hidden rounded-2xl md:w-1/2">
-                <Image
+                <FadeInImage
                   src={chef.imageUrl}
                   alt={chef.name}
                   fill
