@@ -1,0 +1,210 @@
+[
+  {
+    "id": "tostada-atun-clasica",
+    "name": "Tostada de Atún Clásica",
+    "description": "Fresco atún con aguacate y salsa de la casa sobre tostada crujiente.",
+    "price": 100,
+    "category": "mariscos",
+    "imageUrl": "/menu/tostada_atun.png"
+  },
+  {
+    "id": "tostada-atun-habanero",
+    "name": "Tostada de Atún Habanero",
+    "description": "Atún fresco con un toque picante de habanero sobre tostada crujiente.",
+    "price": 100,
+    "category": "mariscos",
+    "imageUrl": "/placeholder.svg"
+  },
+  {
+    "id": "tostada-camaron-clasica",
+    "name": "Tostada Camarón Clásica",
+    "description": "Camarón fresco preparado al estilo clásico sobre tostada dorada.",
+    "price": 70,
+    "category": "mariscos",
+    "imageUrl": "/placeholder.svg"
+  },
+  {
+    "id": "tostada-camaron-roka-spicy",
+    "name": "Tostada Camarón Roka Spicy",
+    "description": "Camarón con salsa roka spicy y toques cítricos sobre tostada crujiente.",
+    "price": 70,
+    "category": "mariscos",
+    "imageUrl": "/placeholder.svg"
+  },
+  {
+    "id": "tostada-embarazada-mixta",
+    "name": "Tostada Embarazada Mixta",
+    "description": "Generosa tostada mixta con camarón, pescado y pulpo en salsa especial.",
+    "price": 100,
+    "category": "mariscos",
+    "imageUrl": "/placeholder.svg"
+  },
+  {
+    "id": "tostada-aguachile",
+    "name": "Tostada Aguachile",
+    "description": "Tostada bañada en aguachile verde con camarón fresco y cebolla morada.",
+    "price": 70,
+    "category": "mariscos",
+    "imageUrl": "/placeholder.svg"
+  },
+  {
+    "id": "tostada-sashimi-pescado",
+    "name": "Tostada de Sashimi de Pescado",
+    "description": "Finas láminas de pescado fresco estilo sashimi sobre tostada crujiente.",
+    "price": 100,
+    "category": "mariscos",
+    "imageUrl": "/placeholder.svg"
+  },
+  {
+    "id": "aguachile-cam",
+    "name": "Aguachile Cam",
+    "description": "Camarón fresco en aguachile verde con pepino, cebolla morada y chile serrano.",
+    "price": 150,
+    "category": "mariscos",
+    "imageUrl": "/placeholder.svg"
+  },
+  {
+    "id": "mojarra-zarandeada",
+    "name": "Mojarra Zarandeada",
+    "description": "Mojarra entera zarandeada al carbón con sazón sinaloense tradicional.",
+    "price": 250,
+    "category": "mariscos",
+    "imageUrl": "/placeholder.svg"
+  },
+  {
+    "id": "torre-mixta",
+    "name": "Torre Mixta",
+    "description": "Torre de mariscos mixtos con camarón, pulpo, pescado y aguacate.",
+    "price": 250,
+    "category": "mariscos",
+    "imageUrl": "/placeholder.svg"
+  },
+  {
+    "id": "coctel-cam",
+    "name": "Cóctel Cam",
+    "description": "Cóctel de camarón fresco en salsa de tomate con aguacate y cilantro.",
+    "price": 150,
+    "category": "mariscos",
+    "imageUrl": "/placeholder.svg"
+  },
+  {
+    "id": "coctel-mixto",
+    "name": "Cóctel Mixto",
+    "description": "Cóctel de mariscos mixtos en salsa fresca con cebolla y cilantro.",
+    "price": 150,
+    "category": "mariscos",
+    "imageUrl": "/placeholder.svg"
+  },
+  {
+    "id": "taco-camaron-ajillo",
+    "name": "Taco Camarón Ajillo",
+    "description": "Taco de camarón al ajillo con ajo dorado y chile guajillo.",
+    "price": 70,
+    "category": "mariscos",
+    "imageUrl": "/placeholder.svg"
+  },
+  {
+    "id": "taco-gober",
+    "name": "Taco Gober",
+    "description": "Taco gobernador de camarón con queso fundido y chile poblano.",
+    "price": 70,
+    "category": "mariscos",
+    "imageUrl": "/menu/taco_gober.png"
+  },
+  {
+    "id": "taco-aguachile",
+    "name": "Taco de Aguachile",
+    "description": "Taco relleno de aguachile de camarón con cebolla morada y pepino.",
+    "price": 70,
+    "category": "mariscos",
+    "imageUrl": "/placeholder.svg"
+  },
+  {
+    "id": "taco-camaron-diabla",
+    "name": "Taco Camarón Diabla",
+    "description": "Taco de camarón a la diabla con salsa picante de chiles tatemados.",
+    "price": 70,
+    "category": "mariscos",
+    "imageUrl": "/placeholder.svg"
+  },
+  {
+    "id": "taco-baja-camaron-pescado",
+    "name": "Taco Baja de Camarón o Pescado",
+    "description": "Taco estilo Baja California con camarón o pescado empanizado y aderezo chipotle.",
+    "price": 70,
+    "category": "mariscos",
+    "imageUrl": "/menu/taco_baja.png"
+  },
+  {
+    "id": "ceviche-chile-arbol-mixto",
+    "name": "Ceviche Chile de Árbol Mixto",
+    "description": "Ceviche mixto con camarón y pescado en salsa de chile de árbol.",
+    "price": 150,
+    "category": "mariscos",
+    "imageUrl": "/placeholder.svg"
+  },
+  {
+    "id": "ceviche-macho-mixto",
+    "name": "Ceviche Macho Mixto",
+    "description": "Ceviche mixto estilo macho con mariscos frescos y salsa valentía.",
+    "price": 150,
+    "category": "mariscos",
+    "imageUrl": "/menu/ceviche_macho.png"
+  },
+  {
+    "id": "ostiones-5x100",
+    "name": "Ostiones 5x$100",
+    "description": "Cinco ostiones frescos en su concha con limón y salsa negra.",
+    "price": 100,
+    "category": "mariscos",
+    "imageUrl": "/placeholder.svg"
+  },
+  {
+    "id": "chilaquiles-rojos",
+    "name": "Chilaquiles Rojos",
+    "description": "Chilaquiles bañados en salsa roja con crema, queso y cebolla.",
+    "price": 85,
+    "category": "desayunos",
+    "imageUrl": "/menu/chilaquiles.png"
+  },
+  {
+    "id": "huevos-rancheros",
+    "name": "Huevos Rancheros",
+    "description": "Huevos estrellados sobre tortilla con salsa ranchera y frijoles.",
+    "price": 75,
+    "category": "desayunos",
+    "imageUrl": "/placeholder.svg"
+  },
+  {
+    "id": "hotcakes-fruta",
+    "name": "Hotcakes con Fruta",
+    "description": "Hotcakes esponjosos con fruta de temporada y miel de maple.",
+    "price": 80,
+    "category": "desayunos",
+    "imageUrl": "/placeholder.svg"
+  },
+  {
+    "id": "michelada-clasica",
+    "name": "Michelada Clásica",
+    "description": "Cerveza preparada con limón, sal, salsa y chamoy al gusto.",
+    "price": 90,
+    "category": "bebidas",
+    "imageUrl": "/placeholder.svg"
+  },
+  {
+    "id": "agua-horchata",
+    "name": "Agua de Horchata",
+    "description": "Refrescante agua de horchata con canela y un toque de vainilla.",
+    "price": 45,
+    "category": "bebidas",
+    "imageUrl": "/placeholder.svg"
+  },
+  {
+    "id": "limonada-mineral",
+    "name": "Limonada Mineral",
+    "description": "Limonada natural con agua mineral y hierbabuena fresca.",
+    "price": 50,
+    "category": "bebidas",
+    "imageUrl": "/placeholder.svg"
+  }
+]

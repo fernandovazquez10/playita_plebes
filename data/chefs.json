@@ -1,0 +1,14 @@
+[
+  {
+    "id": "chef-beltran",
+    "name": "Chef Beltrán",
+    "bio": "Cocinero de origen sinaloense con más de 15 años de experiencia en mariscos de autor. Su filosofía une la tradición costera con técnicas contemporáneas para crear una experiencia única en cada platillo.",
+    "imageUrl": "/nosotros/chef_r.png"
+  },
+  {
+    "id": "chef-juliet",
+    "name": "Chef Juliet",
+    "bio": "Con raíces en el Pacífico mexicano, aporta frescura y creatividad a cada preparación. Su pasión por los ingredientes locales y las técnicas modernas define la identidad culinaria de Playita Plebes.",
+    "imageUrl": "/nosotros/chef_j.png"
+  }
+]

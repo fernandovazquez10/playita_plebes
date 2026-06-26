@@ -1,0 +1,29 @@
+'use client'
+
+import type { MenuItem } from '@/types'
+import MenuCard from './MenuCard'
+
+interface MenuGridProps {
+  items: MenuItem[]
+  onSelectItem: (item: MenuItem) => void
+}
+
+export default function MenuGrid({ items, onSelectItem }: MenuGridProps) {
+  if (items.length === 0) {
+    return (
+      <p className="text-center font-body text-neutral-500 py-8">
+        No hay platillos disponibles en esta categoría.
+      </p>
+    )
+  }
+
+  return (
+    <div className="flex flex-wrap justify-center gap-4 p-4">
+      {items.map((item) => (
+        <div key={item.id} className="w-[calc(50%-0.5rem)] md:w-[calc(25%-0.75rem)] lg:w-[calc(16.666%-0.85rem)]">
+          <MenuCard item={item} onClick={onSelectItem} />
+        </div>
+      ))}
+    </div>
+  )
+}
