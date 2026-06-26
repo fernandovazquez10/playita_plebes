@@ -18,6 +18,8 @@ const dmSans = DM_Sans({
   weight: ["400", "500", "700"],
 });
 
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://fernandovazquez10.github.io/playita_plebes"),
   title: {
@@ -27,8 +29,8 @@ export const metadata: Metadata = {
   description:
     "Acercamos la auténtica comida de mar al corazón de la Ciudad de México.",
   icons: {
-    icon: "/logo.png",
-    apple: "/logo.png",
+    icon: `${BASE_PATH}/logo.png`,
+    apple: `${BASE_PATH}/logo.png`,
   },
 };
 

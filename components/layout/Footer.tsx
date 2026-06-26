@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { assetPath } from "@/lib/assetPath";
 
 export default function Footer() {
   return (
@@ -7,7 +8,7 @@ export default function Footer() {
         {/* Logo + Casa Beltrán */}
         <div className="flex items-center gap-3">
           <Image
-            src="/logo.png"
+            src={assetPath("/logo.png")}
             alt="Playita Plebes logo"
             width={80}
             height={80}

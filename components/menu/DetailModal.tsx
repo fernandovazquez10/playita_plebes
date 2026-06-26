@@ -3,6 +3,7 @@
 import { useEffect, useRef, useCallback } from 'react'
 import Image from 'next/image'
 import type { MenuItem } from '@/types'
+import { assetPath } from '@/lib/assetPath'
 
 interface DetailModalProps {
   item: MenuItem | null
@@ -118,7 +119,7 @@ export default function DetailModal({ item, onClose }: DetailModalProps) {
         {/* Item image */}
         <div className="relative w-full aspect-[4/3] overflow-hidden rounded-t-xl">
           <Image
-            src={item.imageUrl}
+            src={assetPath(item.imageUrl)}
             alt={item.name}
             fill
             sizes="(max-width: 640px) 100vw, 512px"
