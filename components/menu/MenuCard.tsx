@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import type { MenuItem } from '@/types'
+import { assetPath } from '@/lib/assetPath'
 
 interface MenuCardProps {
   item: MenuItem
@@ -10,7 +11,7 @@ interface MenuCardProps {
 }
 
 export default function MenuCard({ item, onClick }: MenuCardProps) {
-  const [imgSrc, setImgSrc] = useState(item.imageUrl)
+  const [imgSrc, setImgSrc] = useState(assetPath(item.imageUrl))
   const [loaded, setLoaded] = useState(false)
 
   return (
@@ -29,7 +30,7 @@ export default function MenuCard({ item, onClick }: MenuCardProps) {
             loaded ? 'opacity-100' : 'opacity-0'
           }`}
           onLoad={() => setLoaded(true)}
-          onError={() => setImgSrc('/placeholder.svg')}
+          onError={() => setImgSrc(assetPath('/placeholder.svg'))}
         />
       </div>
       <span className="mt-3 font-body text-sm font-medium text-dark-navy line-clamp-2 text-center w-full">

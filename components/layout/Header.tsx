@@ -1,5 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
+import { assetPath } from "@/lib/assetPath";
 
 export default function Header() {
   return (
@@ -7,7 +8,7 @@ export default function Header() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
         <Link href="/" className="flex-shrink-0 focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-dark-navy rounded">
           <Image
-            src="/logo_small.png"
+            src={assetPath("/logo_small.png")}
             alt="Playita Plebes logo"
             width={48}
             height={48}

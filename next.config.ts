@@ -17,6 +17,12 @@ const nextConfig: NextConfig = {
   basePath: isProd ? `/${repo}` : undefined,
   assetPrefix: isProd ? `/${repo}/` : undefined,
 
+  // Expone el basePath al cliente para prefijar manualmente las imágenes
+  // (next/image con unoptimized no lo hace automáticamente).
+  env: {
+    NEXT_PUBLIC_BASE_PATH: isProd ? `/${repo}` : "",
+  },
+
   // Permite el hot-reload (HMR) en dev desde dispositivos en la red local
   allowedDevOrigins: ['192.168.68.58'],
 };
