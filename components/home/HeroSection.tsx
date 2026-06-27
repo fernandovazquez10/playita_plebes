@@ -12,7 +12,7 @@ export default function HeroSection({ ctaHref }: HeroSectionProps) {
     <section className="relative flex min-h-[calc(100vh-4rem)] items-center justify-center overflow-hidden px-4 py-10 sm:py-20 sm:px-6 lg:px-8">
       {/* Imagen de fondo */}
       <Image
-        src={assetPath("/inicio/hero-bg.svg")}
+        src={assetPath("/inicio/hero-bg.jpg")}
         alt=""
         fill
         priority
