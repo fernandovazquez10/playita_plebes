@@ -1,8 +1,5 @@
 import type { NextConfig } from "next";
 
-const isProd = process.env.NODE_ENV === "production";
-const repo = "playita_plebes";
-
 const nextConfig: NextConfig = {
   // Genera HTML/CSS/JS estáticos en carpeta out/ (sin servidor Node)
   output: "export",
@@ -12,15 +9,10 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
 
-  // En producción (GitHub Pages) el sitio se sirve en /playita_plebes/
-  // En desarrollo local se sirve en la raíz.
-  basePath: isProd ? `/${repo}` : undefined,
-  assetPrefix: isProd ? `/${repo}/` : undefined,
-
-  // Expone el basePath al cliente para prefijar manualmente las imágenes
-  // (next/image con unoptimized no lo hace automáticamente).
+  // Con dominio propio el sitio se sirve en la raíz, no necesita basePath.
+  // BASE_PATH vacío hace que assetPath() deje las rutas tal cual.
   env: {
-    NEXT_PUBLIC_BASE_PATH: isProd ? `/${repo}` : "",
+    NEXT_PUBLIC_BASE_PATH: "",
   },
 
   // Permite el hot-reload (HMR) en dev desde dispositivos en la red local

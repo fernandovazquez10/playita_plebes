@@ -21,7 +21,7 @@ const dmSans = DM_Sans({
 const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://fernandovazquez10.github.io/playita_plebes"),
+  metadataBase: new URL("https://playitaplebes.com"),
   title: {
     default: "Playita Plebes",
     template: "%s | Playita Plebes",

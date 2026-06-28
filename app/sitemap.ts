@@ -6,15 +6,15 @@ export const revalidate = false
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: 'https://fernandovazquez10.github.io/playita_plebes',
+      url: 'https://playitaplebes.com',
       lastModified: '2025-01-01',
     },
     {
-      url: 'https://fernandovazquez10.github.io/playita_plebes/menu',
+      url: 'https://playitaplebes.com/menu',
       lastModified: '2025-01-01',
     },
     {
-      url: 'https://fernandovazquez10.github.io/playita_plebes/nosotros',
+      url: 'https://playitaplebes.com/nosotros',
       lastModified: '2025-01-01',
     },
   ]
