@@ -4,6 +4,7 @@ import { useEffect, useRef, useCallback } from 'react'
 import Image from 'next/image'
 import type { MenuItem } from '@/types'
 import { assetPath } from '@/lib/assetPath'
+import { formatPrice } from '@/lib/menu'
 
 interface DetailModalProps {
   item: MenuItem | null
@@ -132,11 +133,11 @@ export default function DetailModal({ item, onClose }: DetailModalProps) {
           <h2 className="font-display text-2xl text-dark-navy mb-2">
             {item.name}
           </h2>
-          <p className="font-body text-neutral-500 text-base mb-4">
+          <p className="font-body text-neutral-500 text-base mb-4 whitespace-pre-line">
             {item.description}
           </p>
           <span className="font-body text-xl font-semibold text-brand-orange">
-            ${item.price}
+            {formatPrice(item.price)}
           </span>
         </div>
       </div>

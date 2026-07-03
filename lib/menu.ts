@@ -14,7 +14,7 @@ export function isValidMenuItem(item: unknown): item is MenuItem {
     typeof i.id === 'string' && i.id.length > 0 &&
     typeof i.name === 'string' && i.name.length > 0 &&
     typeof i.description === 'string' &&
-    typeof i.price === 'number' && i.price > 0 &&
+    typeof i.price === 'number' && i.price >= 0 &&
     VALID_CATEGORIES.includes(i.category as typeof VALID_CATEGORIES[number]) &&
     typeof i.imageUrl === 'string' && i.imageUrl.length > 0
   )
@@ -38,7 +38,9 @@ export function filterByCategory(items: MenuItem[], category: Category): MenuIte
 
 /**
  * Formats a numeric price as a string with $ prefix.
+ * Returns "Precio por el chef" when price is 0 (special items).
  */
 export function formatPrice(price: number): string {
+  if (price === 0) return 'Preguntar al chef'
   return `$${price}`
 }

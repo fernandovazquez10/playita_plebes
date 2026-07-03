@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Image from 'next/image'
 import type { MenuItem } from '@/types'
 import { assetPath } from '@/lib/assetPath'
+import { formatPrice } from '@/lib/menu'
 
 interface MenuCardProps {
   item: MenuItem
@@ -37,7 +38,7 @@ export default function MenuCard({ item, onClick }: MenuCardProps) {
         {item.name}
       </span>
       <span className="mt-1 font-body text-base font-semibold text-brand-orange">
-        ${item.price}
+        {formatPrice(item.price)}
       </span>
     </button>
   )
