@@ -56,9 +56,11 @@ export default function HeroSection({ ctaHref }: HeroSectionProps) {
         </p>
 
         <p className="mt-4 font-body text-base leading-relaxed text-neutral-200 sm:text-lg">
-          Llevamos los sabores frescos de la cocina del mar hasta el corazón de
-          la capital. Mariscos preparados con tradición, ingredientes de la más
-          alta calidad y el inconfundible sazón costero en cada platillo.
+          Llevamos los sabores frescos de la cocina del mar hasta el corazón de la capital.
+          <br />
+          Mariscos preparados con tradición, ingredientes de la más alta calidad
+          <br />
+          y el inconfundible sazón costero en cada platillo.
         </p>
 
         <Link

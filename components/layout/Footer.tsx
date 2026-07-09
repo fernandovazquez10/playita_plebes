@@ -24,7 +24,7 @@ export default function Footer() {
           <p className="font-body text-sm text-brand-cream">Síguenos en nuestras redes</p>
         <nav aria-label="Redes sociales" className="flex gap-5">
           <a
-            href="https://www.instagram.com/playitaplebes"
+            href="https://www.instagram.com/playitaplebes_oficial"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
@@ -96,7 +96,7 @@ export default function Footer() {
 
         {/* Made with love */}
         <p className="text-brand-cream font-body text-xs flex items-center gap-1">
-          Made with love
+          Made with 
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="14"

@@ -34,7 +34,7 @@ export default function Home() {
 
       <StorySection
         heading="Nuestra Historia"
-        body="Playita Plebes nace con una misión clara: acercar la auténtica comida de mar al corazón de la Ciudad de México. Inspirados por el recorrido de nuestro chef por las costas del país —donde aprendió el arte de los mariscos de manos de las cocineras de la región— hoy ofrecemos un amplio menú que trae el sabor del Pacífico a la capital."
+        body="Playita Plebes nace con una misión clara: acercar la auténtica comida de mar al corazón de la Ciudad de México. Inspirados por el recorrido de nuestro chef por las costas del país, donde aprendió el arte de los mariscos de manos de las cocineras de la región. Hoy ofrecemos un amplio menú que trae el sabor del Pacífico a la capital."
         imageSrc="/inicio/historia.png"
         imageAlt="Mariscos frescos preparados al estilo de la costa"
         imagePosition="left"
@@ -42,7 +42,7 @@ export default function Home() {
 
       <StorySection
         heading="Tradición y Técnica"
-        body="Cada platillo es el encuentro entre la tradición costera y la técnica refinada en cocinas de alto nivel. Respetamos las recetas que nos enseñó el mar y las elevamos con ingredientes de la más alta calidad, presentaciones cuidadas y un sazón que honra su origen. Aquí, cada bocado cuenta una historia que viaja desde el Pacífico hasta tu mesa."
+        body='Cada platillo es el encuentro entre la tradición costera y la técnica refinada en cocinas de alto nivel. Respetamos las recetas que nos enseñó el mar y las elevamos con ingredientes de la más alta calidad. aquí "cada bocado cuenta una historia que viaja desde el Pacífico hasta tu mesa."'
         imageSrc="/inicio/tradicion.jpg"
         imageAlt="Chef preparando platillos con técnica de autor"
         imagePosition="right"

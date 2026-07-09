@@ -101,7 +101,7 @@
     "description": "Aguachile en su versión pequeña para disfrutar.",
     "price": 70,
     "category": "mariscos",
-    "imageUrl": "/placeholder.svg"
+    "imageUrl": "/menu/taco_aguachile.jpg"
   },
   {
     "id": "taco-camaron-diabla",
@@ -125,6 +125,14 @@
     "description": "Receta tradicional de Mazatlán, acompañada de arroz y ensalada.",
     "price": 250,
     "category": "mariscos",
+    "imageUrl": "/menu/mojarra_zarandeada.jpg"
+  },
+  {
+    "id": "mojarra-chicharron",
+    "name": "Mojarra Chicharron",
+    "description": "Acompañada de arroz y ensalda.",
+    "price": 250,
+    "category": "mariscos",
     "imageUrl": "/placeholder.svg"
   },
   {
@@ -144,6 +152,22 @@
     "imageUrl": "/placeholder.svg"
   },
   {
+    "id": "chicharron-camaron",
+    "name": "Chicharron de Camarón",
+    "description": "Crujiente, ligero y 100% botanero.",
+    "price": 120,
+    "category": "mariscos",
+    "imageUrl": "/menu/chicharron_camaron.jpg"
+  },
+  {
+    "id": "ostiones",
+    "name": "Orden de Ostiones",
+    "description": "Orden de 5 ostiones frescos preparados.",
+    "price": 150,
+    "category": "mariscos",
+    "imageUrl": "/menu/ostiones.jpg"
+  },
+  {
     "id": "experiencia-chef-mariscos",
     "name": "Experiencia del Chef",
     "description": "¿No sabes qué pedir? Deja que el chef te sorprenda con una preparación especial del día, hecha con los mejores ingredientes disponibles.",
@@ -152,26 +176,58 @@
     "imageUrl": "/placeholder.svg"
   },
   {
-    "id": "chilaquiles",
-    "name": "Chilaquiles",
-    "description": "Chilaquiles bañados en salsa roja, verde o negra de ceniza de habanero con huevo, crema, queso y cebolla.\nAcompñalos con café, avena, fruta de temporada o jugo.",
+    "id": "chilaquiles-sencillos",
+    "name": "Chilaquiles Sencillos",
+    "description": "Chilaquiles bañados en salsa roja, verde o negra con huevo, crema, queso y cebolla.\nAcompñalos con café, avena, fruta de temporada o jugo.",
     "price": 85,
     "category": "desayunos",
     "imageUrl": "/menu/chilaquiles.jpg"
   },
-  {
-    "id": "huevos-rancheros",
-    "name": "Huevos al Gusto",
-    "description": "Huevos al gusto con salsa ranchera y frijoles.\nAcompñalos con café, avena fruta de temporada o jugo.",
-    "price": 85,
+    {
+    "id": "chilaquiles-especiales",
+    "name": "Chilaquiles Especiales",
+    "description": "Chilaquiles bañados en salsa roja, verde o negra con proteina, crema, queso y cebolla.\nAcompñalos con café, avena, fruta de temporada o jugo.",
+    "price": 100,
     "category": "desayunos",
     "imageUrl": "/placeholder.svg"
   },
   {
-    "id": "torta-chilaquiles",
-    "name": "Torta de Chilaquiles",
-    "description": "Rica torta de chilaquiles rojos, verdes o negros (de ceniza de habanero) con carne asada o pollo rostizado.",
+    "id": "huevos-al-gusto",
+    "name": "Huevos al Gusto",
+    "description": "Huevos al gusto con salsa ranchera y frijoles.\nAcompñalos con café, avena fruta de temporada o jugo.",
+    "price": 85,
+    "category": "desayunos",
+    "imageUrl": "/menu/huevos_al_gusto.jpg"
+  },
+  {
+    "id": "hotcakes",
+    "name": "Hotcakes de la Casa",
+    "description": "Ricos hotcakes con tocino y huevos revueltos.",
+    "price": 85,
+    "category": "desayunos",
+    "imageUrl": "/menu/hotcakes.jpg"
+  },
+  {
+    "id": "torta-chilaquiles-sencilla",
+    "name": "Torta de Chilaquiles Sencilla",
+    "description": "Rica torta de chilaquiles rojos, verdes o negros con huevo.",
     "price": 40,
+    "category": "desayunos",
+    "imageUrl": "/placeholder.svg"
+  },
+  {
+    "id": "torta-chilaquiles-especial",
+    "name": "Torta de Chilaquiles Especial",
+    "description": "Rica torta de chilaquiles rojos, verdes o negros con pollo rostizado o bistec o doble huevo.",
+    "price": 55,
+    "category": "desayunos",
+    "imageUrl": "/menu/torta_chilaquiles_especial.jpg"
+  },
+  {
+    "id": "torta-chilaquiles-arrachera",
+    "name": "Torta de Chilaquiles Arrachera",
+    "description": "Rica torta de chilaquiles rojos, verdes o negros con carne arrachera.",
+    "price": 60,
     "category": "desayunos",
     "imageUrl": "/placeholder.svg"
   },
@@ -184,12 +240,35 @@
     "imageUrl": "/placeholder.svg"
   },
   {
+    "id": "cocacola-lata",
+    "name": "Lata de Coca-Cola",
+    "description": "Lata de coca-cola de 355ml.",
+    "price": 40,
+    "category": "bebidas",
+    "imageUrl": "/placeholder-drink.svg"
+  },
+  {
+    "id": "arizona-lata",
+    "name": "Arizona",
+    "description": "Lata de arizona de 570ml.",
+    "price": 40,
+    "category": "bebidas",
+    "imageUrl": "/placeholder-drink.svg"
+  },
+  {
+    "id": "cerveza-lata",
+    "name": "Lata de cerveza",
+    "description": "Lata de cerveza modelo o victoria de 710ml.\nSe puede pedir preparada como cerillo.",
+    "price": 40,
+    "category": "bebidas",
+    "imageUrl": "/placeholder-drink.svg"
+  },
+  {
     "id": "tarro-cerveza",
     "name": "Tarro de Cerveza",
     "description": "Cerveza preparada con limón, sal, salsa y chamoy al gusto.",
     "price": 90,
     "category": "bebidas",
     "imageUrl": "/menu/tarro-cerveza.jpg"
-
   }
 ]
