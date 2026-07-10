@@ -5,7 +5,8 @@
     "description": "Crema de chipotle, atún marinado, aguacate y poro frito.",
     "price": 100,
     "category": "mariscos",
-    "imageUrl": "/menu/tostada_atun.png"
+    "imageUrl": "/menu/tostada_atun.png",
+    "active": true
   },
   {
     "id": "tostada-atun-habanero",
@@ -13,7 +14,8 @@
     "description": "Atún marinado en cremoso de ceniza de habanero, pico de gallo y aguacate.",
     "price": 100,
     "category": "mariscos",
-    "imageUrl": "/placeholder.svg"
+    "imageUrl": "/placeholder.svg",
+    "active": true
   },
   {
     "id": "tostada-camaron-clasica",
@@ -21,7 +23,8 @@
     "description": "Camarón cocido con pico de gallo y base de mayonesa, con o sin coctelera.",
     "price": 70,
     "category": "mariscos",
-    "imageUrl": "/placeholder.svg"
+    "imageUrl": "/placeholder.svg",
+    "active": true
   },
   {
     "id": "tostada-camaron-roka-spicy",
@@ -29,7 +32,8 @@
     "description": "Camarón roka, cremoso de surimi, aguacate y aderezo spicy.",
     "price": 70,
     "category": "mariscos",
-    "imageUrl": "/menu/tostada_roka.jpg"
+    "imageUrl": "/menu/tostada_roka.jpg",
+    "active": true
   },
   {
     "id": "tostada-embarazada-mixta",
@@ -37,7 +41,8 @@
     "description": "Pescado marinado, camarón crudo y cocido, mayonesa y salsa marisquera.",
     "price": 100,
     "category": "mariscos",
-    "imageUrl": "/placeholder.svg"
+    "imageUrl": "/placeholder.svg",
+    "active": true
   },
   {
     "id": "tostada-aguachile",
@@ -45,7 +50,8 @@
     "description": "Estilo sinaloense con pepino, cebolla morada, cilantro, aguacate y el picor a tu elección.",
     "price": 70,
     "category": "mariscos",
-    "imageUrl": "/placeholder.svg"
+    "imageUrl": "/placeholder.svg",
+    "active": true
   },
   {
     "id": "tostada-sashimi-pescado",
@@ -53,7 +59,8 @@
     "description": "Pescado marinado acompañado de jengibre, cebollín y ajo frito.",
     "price": 100,
     "category": "mariscos",
-    "imageUrl": "/placeholder.svg"
+    "imageUrl": "/placeholder.svg",
+    "active": true
   },
   {
     "id": "ceviche-chile-arbol-mixto",
@@ -61,7 +68,8 @@
     "description": "Ceviche mixto con chile de árbol.",
     "price": 150,
     "category": "mariscos",
-    "imageUrl": "/menu/ceviche_arbol.jpg"
+    "imageUrl": "/menu/ceviche_arbol.jpg",
+    "active": true
   },
   {
     "id": "ceviche-macho-mixto",
@@ -69,7 +77,8 @@
     "description": "Camarón, pescado, pepino, aguacate, cilantro y cebolla morada.",
     "price": 150,
     "category": "mariscos",
-    "imageUrl": "/menu/ceviche_mixto.jpg"
+    "imageUrl": "/menu/ceviche_mixto.jpg",
+    "active": true
   },
   {
     "id": "aguachile-camaron",
@@ -77,7 +86,8 @@
     "description": "Estilo sinaloense con pepino, cebolla morada, cilantro, aguacate y el picor a tu elección.",
     "price": 150,
     "category": "mariscos",
-    "imageUrl": "/menu/aguachile.jpg"
+    "imageUrl": "/menu/aguachile.jpg",
+    "active": true
   },
   {
     "id": "taco-camaron-ajillo",
@@ -85,7 +95,8 @@
     "description": "Mezcla de chiles con semillas y queso.",
     "price": 70,
     "category": "mariscos",
-    "imageUrl": "/placeholder.svg"
+    "imageUrl": "/placeholder.svg",
+    "active": true
   },
   {
     "id": "taco-gobernador",
@@ -93,7 +104,8 @@
     "description": "Camarón, cebolla, jitomate y queso menonita.",
     "price": 70,
     "category": "mariscos",
-    "imageUrl": "/menu/taco_gober.jpg"
+    "imageUrl": "/menu/taco_gober.jpg",
+    "active": true
   },
   {
     "id": "taco-aguachile",
@@ -101,7 +113,8 @@
     "description": "Aguachile en su versión pequeña para disfrutar.",
     "price": 70,
     "category": "mariscos",
-    "imageUrl": "/menu/taco_aguachile.jpg"
+    "imageUrl": "/menu/taco_aguachile.jpg",
+    "active": true
   },
   {
     "id": "taco-camaron-diabla",
@@ -109,7 +122,8 @@
     "description": "Taco con adobo de chiles y queso manchego.",
     "price": 70,
     "category": "mariscos",
-    "imageUrl": "/placeholder.svg"
+    "imageUrl": "/placeholder.svg",
+    "active": true
   },
   {
     "id": "torre-mixta",
@@ -117,7 +131,8 @@
     "description": "Base de ceviche de pescado, camarón crudo y atún, bañada en salsa negra con aguacate, cebolla y pepino.",
     "price": 250,
     "category": "mariscos",
-    "imageUrl": "/menu/torre.jpg"
+    "imageUrl": "/menu/torre.jpg",
+    "active": true
   },
   {
     "id": "mojarra-zarandeada",
@@ -125,7 +140,8 @@
     "description": "Receta tradicional de Mazatlán, acompañada de arroz y ensalada.",
     "price": 250,
     "category": "mariscos",
-    "imageUrl": "/menu/mojarra_zarandeada.jpg"
+    "imageUrl": "/menu/mojarra_zarandeada.jpg",
+    "active": true
   },
   {
     "id": "mojarra-chicharron",
@@ -133,7 +149,8 @@
     "description": "Acompañada de arroz y ensalda.",
     "price": 250,
     "category": "mariscos",
-    "imageUrl": "/placeholder.svg"
+    "imageUrl": "/placeholder.svg",
+    "active": true
   },
   {
     "id": "coctel-camaron",
@@ -141,7 +158,8 @@
     "description": "Cóctel de camarón fresco en salsa de tomate con aguacate y cilantro.",
     "price": 150,
     "category": "mariscos",
-    "imageUrl": "/placeholder.svg"
+    "imageUrl": "/placeholder.svg",
+    "active": true
   },
   {
     "id": "coctel-mixto",
@@ -149,7 +167,8 @@
     "description": "Cóctel de mariscos mixtos en salsa fresca con cebolla y cilantro.",
     "price": 150,
     "category": "mariscos",
-    "imageUrl": "/placeholder.svg"
+    "imageUrl": "/placeholder.svg",
+    "active": true
   },
   {
     "id": "chicharron-camaron",
@@ -157,7 +176,8 @@
     "description": "Crujiente, ligero y 100% botanero.",
     "price": 120,
     "category": "mariscos",
-    "imageUrl": "/menu/chicharron_camaron.jpg"
+    "imageUrl": "/menu/chicharron_camaron.jpg",
+    "active": true
   },
   {
     "id": "ostiones",
@@ -165,7 +185,8 @@
     "description": "Orden de 5 ostiones frescos preparados.",
     "price": 150,
     "category": "mariscos",
-    "imageUrl": "/menu/ostiones.jpg"
+    "imageUrl": "/menu/ostiones.jpg",
+    "active": true
   },
   {
     "id": "experiencia-chef-mariscos",
@@ -173,7 +194,8 @@
     "description": "¿No sabes qué pedir? Deja que el chef te sorprenda con una preparación especial del día, hecha con los mejores ingredientes disponibles.",
     "price": 0,
     "category": "mariscos",
-    "imageUrl": "/placeholder.svg"
+    "imageUrl": "/placeholder.svg",
+    "active": true
   },
   {
     "id": "chilaquiles-sencillos",
@@ -181,15 +203,17 @@
     "description": "Chilaquiles bañados en salsa roja, verde o negra con huevo, crema, queso y cebolla.\nAcompñalos con café, avena, fruta de temporada o jugo.",
     "price": 85,
     "category": "desayunos",
-    "imageUrl": "/menu/chilaquiles.jpg"
+    "imageUrl": "/menu/chilaquiles.jpg",
+    "active": true
   },
-    {
+  {
     "id": "chilaquiles-especiales",
     "name": "Chilaquiles Especiales",
     "description": "Chilaquiles bañados en salsa roja, verde o negra con proteina, crema, queso y cebolla.\nAcompñalos con café, avena, fruta de temporada o jugo.",
     "price": 100,
     "category": "desayunos",
-    "imageUrl": "/placeholder.svg"
+    "imageUrl": "/placeholder.svg",
+    "active": true
   },
   {
     "id": "huevos-al-gusto",
@@ -197,7 +221,8 @@
     "description": "Huevos al gusto con salsa ranchera y frijoles.\nAcompñalos con café, avena fruta de temporada o jugo.",
     "price": 85,
     "category": "desayunos",
-    "imageUrl": "/menu/huevos_al_gusto.jpg"
+    "imageUrl": "/menu/huevos_al_gusto.jpg",
+    "active": true
   },
   {
     "id": "hotcakes",
@@ -205,7 +230,8 @@
     "description": "Ricos hotcakes con tocino y huevos revueltos.",
     "price": 85,
     "category": "desayunos",
-    "imageUrl": "/menu/hotcakes.jpg"
+    "imageUrl": "/menu/hotcakes.jpg",
+    "active": true
   },
   {
     "id": "torta-chilaquiles-sencilla",
@@ -213,7 +239,8 @@
     "description": "Rica torta de chilaquiles rojos, verdes o negros con huevo.",
     "price": 40,
     "category": "desayunos",
-    "imageUrl": "/placeholder.svg"
+    "imageUrl": "/placeholder.svg",
+    "active": true
   },
   {
     "id": "torta-chilaquiles-especial",
@@ -221,7 +248,8 @@
     "description": "Rica torta de chilaquiles rojos, verdes o negros con pollo rostizado o bistec o doble huevo.",
     "price": 55,
     "category": "desayunos",
-    "imageUrl": "/menu/torta_chilaquiles_especial.jpg"
+    "imageUrl": "/menu/torta_chilaquiles_especial.jpg",
+    "active": true
   },
   {
     "id": "torta-chilaquiles-arrachera",
@@ -229,7 +257,8 @@
     "description": "Rica torta de chilaquiles rojos, verdes o negros con carne arrachera.",
     "price": 60,
     "category": "desayunos",
-    "imageUrl": "/placeholder.svg"
+    "imageUrl": "/placeholder.svg",
+    "active": true
   },
   {
     "id": "experiencia-chef-desayunos",
@@ -237,7 +266,8 @@
     "description": "¿No sabes qué pedir? Deja que el chef te sorprenda con una preparación especial del día, hecha con los mejores ingredientes disponibles.",
     "price": 0,
     "category": "desayunos",
-    "imageUrl": "/placeholder.svg"
+    "imageUrl": "/placeholder.svg",
+    "active": true
   },
   {
     "id": "cocacola-lata",
@@ -245,7 +275,8 @@
     "description": "Lata de coca-cola de 355ml.",
     "price": 40,
     "category": "bebidas",
-    "imageUrl": "/placeholder-drink.svg"
+    "imageUrl": "/placeholder-drink.svg",
+    "active": true
   },
   {
     "id": "arizona-lata",
@@ -253,7 +284,8 @@
     "description": "Lata de arizona de 570ml.",
     "price": 40,
     "category": "bebidas",
-    "imageUrl": "/placeholder-drink.svg"
+    "imageUrl": "/placeholder-drink.svg",
+    "active": true
   },
   {
     "id": "cerveza-lata",
@@ -261,7 +293,8 @@
     "description": "Lata de cerveza modelo o victoria de 710ml.\nSe puede pedir preparada como cerillo.",
     "price": 40,
     "category": "bebidas",
-    "imageUrl": "/placeholder-drink.svg"
+    "imageUrl": "/placeholder-drink.svg",
+    "active": true
   },
   {
     "id": "tarro-cerveza",
@@ -269,6 +302,7 @@
     "description": "Cerveza preparada con limón, sal, salsa y chamoy al gusto.",
     "price": 90,
     "category": "bebidas",
-    "imageUrl": "/menu/tarro-cerveza.jpg"
+    "imageUrl": "/menu/tarro-cerveza.jpg",
+    "active": true
   }
 ]

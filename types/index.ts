@@ -6,7 +6,8 @@ export interface MenuItem {
   description: string
   price: number       // pesos MXN
   category: Category
-  imageUrl: string    // URL de Google Drive o ruta relativa /public/
+  imageUrl: string    // Ruta relativa /public/
+  active: boolean     // Solo los items activos se muestran en la vista
 }
 
 export interface Chef {

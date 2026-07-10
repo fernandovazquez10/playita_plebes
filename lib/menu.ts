@@ -21,12 +21,12 @@ export function isValidMenuItem(item: unknown): item is MenuItem {
 }
 
 /**
- * Returns all menu items from the local JSON data, filtered through the
- * isValidMenuItem guard for runtime safety.
+ * Returns all active menu items from the local JSON data, filtered through the
+ * isValidMenuItem guard for runtime safety. Items with active: false are excluded.
  */
 export function getMenuItems(): MenuItem[] {
   const items = menuData as unknown[]
-  return items.filter(isValidMenuItem)
+  return items.filter(isValidMenuItem).filter(item => item.active)
 }
 
 /**
