@@ -212,7 +212,7 @@
     "description": "Chilaquiles bañados en salsa roja, verde o negra con proteina, crema, queso y cebolla.\nAcompñalos con café, avena, fruta de temporada o jugo.",
     "price": 100,
     "category": "desayunos",
-    "imageUrl": "/placeholder.svg",
+    "imageUrl": "/menu/chilaquiles_especiales.webp",
     "active": true
   },
   {
