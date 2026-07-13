@@ -41,7 +41,7 @@
     "description": "Pescado marinado, camarón crudo y cocido, mayonesa y salsa marisquera.",
     "price": 100,
     "category": "mariscos",
-    "imageUrl": "/placeholder.svg",
+    "imageUrl": "/menu/tostada_embarazada.jpg",
     "active": true
   },
   {
@@ -158,7 +158,7 @@
     "description": "Cóctel de camarón fresco en salsa de tomate con aguacate y cilantro.",
     "price": 150,
     "category": "mariscos",
-    "imageUrl": "/placeholder.svg",
+    "imageUrl": "/menu/coctel_camaron.jpg",
     "active": true
   },
   {
@@ -275,7 +275,7 @@
     "description": "Lata de coca-cola de 355ml.",
     "price": 40,
     "category": "bebidas",
-    "imageUrl": "/placeholder-drink.svg",
+    "imageUrl": "/menu/coca-cola.jpg",
     "active": true
   },
   {
@@ -284,16 +284,16 @@
     "description": "Lata de arizona de 570ml.",
     "price": 40,
     "category": "bebidas",
-    "imageUrl": "/placeholder-drink.svg",
+    "imageUrl": "/menu/arizona.jpg",
     "active": true
   },
   {
     "id": "cerveza-lata",
     "name": "Lata de cerveza",
-    "description": "Lata de cerveza modelo o victoria de 710ml.\nSe puede pedir preparada como cerillo.",
+    "description": "Lata de cerveza modelo o victoria de 473ml.\nSe puede pedir preparada como cerillo.",
     "price": 40,
     "category": "bebidas",
-    "imageUrl": "/placeholder-drink.svg",
+    "imageUrl": "/menu/latas_cerveza.jpg",
     "active": true
   },
   {
@@ -302,7 +302,7 @@
     "description": "Cerveza preparada con limón, sal, salsa y chamoy al gusto.",
     "price": 90,
     "category": "bebidas",
-    "imageUrl": "/menu/tarro-cerveza.jpg",
+    "imageUrl": "/menu/tarro_cerveza.jpg",
     "active": true
   }
 ]
